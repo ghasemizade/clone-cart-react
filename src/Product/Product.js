@@ -3,7 +3,7 @@ import './Product.css'
 
 function Product() {
     return(
-        <div>
+        <div className="container">
             {/* <h2>Product Card</h2> */}
             <div className="card">
                 <img src='iphon13.jpg' alt="Product"/>

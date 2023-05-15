@@ -2,15 +2,20 @@
     margin: 0;
 
 }
+.App{
+    display: flex;
+    justify-content: space-around;
+}
 .card{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
-    width: 300px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: 400px;
     height: auto;
     text-align: center;
     font-family: sans-serif;
+    margin: 2rem;
 }
 .card img{
-    width: 150px;
+    width: 90%;
 }
 .price{
     color: #666;
