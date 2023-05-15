@@ -18,16 +18,23 @@
     font-size: 24px;
     margin: 1.5rem 0;
 }
+.card .about{
+    font-size: 18px;
+    padding: .8rem;
+}
 button{
-    margin: 1rem .5rem;
+    margin-top: 1rem;
     border: none;
     background-color: #fff;
     font-size: 20px;
     cursor: pointer;
     padding: 1rem;
     transition: .2s;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
+    width: 100%;
+    border-top: 1px solid #ccc;
 }
 button:hover{
-    background-color: #666;
+    /* background-color: rgba(55, 196, 55, 0.692); */
+    color: #2BCE97;
 }
