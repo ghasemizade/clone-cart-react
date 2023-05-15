@@ -8,7 +8,7 @@ function Product() {
             <div className="card">
                 <img src='iphon13.jpg' alt="Product"/>
                 <h1>IPHONE</h1>
-                <p className="iphone-price">$999</p>
+                <p className="price">$999</p>
                 <p>iPhone 13 mini, the smallest member of the family, but powerful</p>
                 <button>Add to Card</button>
             </div>
