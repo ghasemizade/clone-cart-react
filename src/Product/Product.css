@@ -2,10 +2,7 @@
     margin: 0;
 
 }
-.App{
-    display: flex;
-    justify-content: space-around;
-}
+
 .card{
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     width: 400px;
