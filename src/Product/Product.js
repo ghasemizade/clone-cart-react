@@ -4,7 +4,6 @@ import './Product.css'
 function Product(props) {
     return(
         <div className="container">
-            {/* <h2>Product Card</h2> */}
             <div className="card">
                 <img src={props.image} alt="Product"/>
                 <h1>{props.title}</h1>
