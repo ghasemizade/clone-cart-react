@@ -40,3 +40,10 @@ button:hover{
     /* background-color: rgba(55, 196, 55, 0.692); */
     color: #2BCE97;
 }
+@media screen and (max-width: 1400px) {
+    .App{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
