@@ -1,7 +1,7 @@
 import React from "react"
 import './Product.css'
 
-function Product({image, title:productName, price}) {
+function Product({image, title:productName, price, children}) {
 
     let title = 'product card'
     return(
@@ -12,6 +12,7 @@ function Product({image, title:productName, price}) {
                 <h1>{productName}</h1>
                 <p className="price">${price}</p>
                 <p className="about">iPhone 13 mini, the smallest member of the family, but powerful</p>
+                {children}
                 <button>Add to Card</button>
             </div>
         </div>

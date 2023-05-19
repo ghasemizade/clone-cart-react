@@ -11,9 +11,17 @@ function App() {
 
   return (
     <div className="App">
-      <Product {...allProducts[0]}/>
-      <Product {...allProducts[1]}/>
-      <Product {...allProducts[2]}/>
+      <Product {...allProducts[0]}>
+        <button className='off-btn'>Off 30%</button>
+      </Product>
+      
+      <Product {...allProducts[1]}>
+      <button className='off-btn'>Off 30%</button>
+      </Product>
+
+      <Product {...allProducts[2]}>
+      <button className='off-btn'>Off 30%</button>
+      </Product>
     </div>
   );
 }

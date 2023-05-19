@@ -52,3 +52,9 @@ button:hover{
     text-align: center;
     margin-top: 10rem;
 }
+.off-btn{
+    border-top: none;
+}
+.off-btn:hover{
+    color: tomato;
+}
