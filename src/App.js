@@ -2,7 +2,6 @@ import Product from './Product/Product';
 import './App.css';
 
 function App() {
-
   const allProducts = [
     {id: 1, title:"iphone", image:"01.jpg", price:"1,999"},
     {id: 2, title:"samsung", image:"02.jpg", price:"1,499"},
